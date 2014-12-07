@@ -481,7 +481,7 @@ static void RPCAcceptHandler(boost::shared_ptr< basic_socket_acceptor<Protocol, 
     if (error)
     {
         // TODO: Actually handle errors
-        LogPrintf("%s: Error: %s\n", __func__, error.message());
+        LogPrintf("%s: Error: %s\n", BOOST_CURRENT_FUNCTION, error.message());
     }
     // Restrict callers by IP.  It is important to
     // do this before starting client thread, to filter out
@@ -644,14 +644,14 @@ void StopRPCThreads()
     {
         acceptor->cancel(ec);
         if (ec)
-            LogPrintf("%s: Warning: %s when cancelling acceptor", __func__, ec.message());
+            LogPrintf("%s: Warning: %s when cancelling acceptor", BOOST_CURRENT_FUNCTION, ec.message());
     }
     rpc_acceptors.clear();
     BOOST_FOREACH(const PAIRTYPE(std::string, boost::shared_ptr<deadline_timer>) &timer, deadlineTimers)
     {
         timer.second->cancel(ec);
         if (ec)
-            LogPrintf("%s: Warning: %s when cancelling timer", __func__, ec.message());
+            LogPrintf("%s: Warning: %s when cancelling timer", BOOST_CURRENT_FUNCTION, ec.message());
     }
     deadlineTimers.clear();
 

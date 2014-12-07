@@ -23,6 +23,11 @@ extern int nConnectTimeout;
 #undef SetPort
 #endif
 
+#if defined(_MSC_VER)
+#include <BaseTsd.h>
+typedef SSIZE_T ssize_t;
+#endif
+
 enum Network
 {
     NET_UNROUTABLE,

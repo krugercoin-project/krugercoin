@@ -9,6 +9,11 @@
 #include "leveldb/db.h"
 #include "db/dbformat.h"
 
+#if defined(_MSC_VER)
+#include <BaseTsd.h>
+typedef SSIZE_T ssize_t;
+#endif
+
 namespace leveldb {
 
 class DBImpl;

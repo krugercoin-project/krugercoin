@@ -53,41 +53,44 @@ enum
 
 #define IMPLEMENT_SERIALIZE(statements)    \
     unsigned int GetSerializeSize(int nType, int nVersion) const  \
-    {                                           \
+        {                                           \
         CSerActionGetSerializeSize ser_action;  \
         const bool fGetSize = true;             \
         const bool fWrite = false;              \
         const bool fRead = false;               \
         unsigned int nSerSize = 0;              \
+        std::map<int, int>  mapUnkIds;			\
         ser_streamplaceholder s;                \
         assert(fGetSize||fWrite||fRead); /* suppress warning */ \
         s.nType = nType;                        \
         s.nVersion = nVersion;                  \
-        {statements}                            \
+            {statements}                            \
         return nSerSize;                        \
-    }                                           \
+        }                                           \
     template<typename Stream>                   \
     void Serialize(Stream& s, int nType, int nVersion) const  \
-    {                                           \
+        {                                           \
         CSerActionSerialize ser_action;         \
         const bool fGetSize = false;            \
         const bool fWrite = true;               \
         const bool fRead = false;               \
         unsigned int nSerSize = 0;              \
+        std::map<int, int>  mapUnkIds;			\
         assert(fGetSize||fWrite||fRead); /* suppress warning */ \
-        {statements}                            \
-    }                                           \
+            {statements}                            \
+        }                                           \
     template<typename Stream>                   \
     void Unserialize(Stream& s, int nType, int nVersion)  \
-    {                                           \
+        {                                           \
         CSerActionUnserialize ser_action;       \
         const bool fGetSize = false;            \
         const bool fWrite = false;              \
         const bool fRead = true;                \
         unsigned int nSerSize = 0;              \
+        std::map<int, int>  mapUnkIds;			\
         assert(fGetSize||fWrite||fRead); /* suppress warning */ \
-        {statements}                            \
-    }
+            {statements}                            \
+        }
 
 #define READWRITE(obj)      (nSerSize += ::SerReadWrite(s, (obj), nType, nVersion, ser_action))
 
@@ -885,7 +888,7 @@ public:
         Init(nTypeIn, nVersionIn);
     }
 
-    CDataStream(const std::vector<unsigned char>& vchIn, int nTypeIn, int nVersionIn) : vch((char*)&vchIn.begin()[0], (char*)&vchIn.end()[0])
+    CDataStream(const std::vector<unsigned char>& vchIn, int nTypeIn, int nVersionIn) : vch(vchIn.begin(), vchIn.end())
     {
         Init(nTypeIn, nVersionIn);
     }

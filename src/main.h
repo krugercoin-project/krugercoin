@@ -379,7 +379,7 @@ public:
             filein >> hashChecksum;
         }
         catch (std::exception &e) {
-            return error("%s : Deserialize or I/O error - %s", __func__, e.what());
+            return error("%s : Deserialize or I/O error - %s", BOOST_CURRENT_FUNCTION, e.what());
         }
 
         // Verify checksum
