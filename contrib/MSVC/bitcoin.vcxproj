@@ -20,7 +20,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{9191918D-7DE3-4BE1-8A32-2F2CF4EE6840}</ProjectGuid>
-    <ProjectName>BitcoinQt</ProjectName>
+    <ProjectName>KrugercoinQt</ProjectName>
     <SccProjectName>SAK</SccProjectName>
     <SccAuxPath>SAK</SccAuxPath>
     <SccLocalPath>SAK</SccLocalPath>
@@ -69,6 +69,7 @@
     <IncludePath>..\..\src\leveldb\helpers\memenv;C:\deps;C:\deps\protobuf-2.5.0\src;C:\deps\qrencode-win32\qrencode-win32;c:\deps\db-4.8.30.NC\build_windows;c:\deps\openssl-1.0.1j\include;C:\Qt\4.8.6-vs\include\;C:\Qt\4.8.6-vs\include\QtCore;C:\Qt\4.8.6-vs\include\QtNetwork;C:\Qt\4.8.6-vs\include\QtGui;c:\boost\boost_1_57_0;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
     <LibraryPath>C:\deps\protobuf-2.5.0\vsprojects\Debug;C:\deps\qrencode-win32\qrencode-win32\vc12\.build\Debug-Lib;c:\Qt\4.8.6-vs\lib;C:/deps/miniupnpc/msvc/Debug;C:/boost/boost_1_57_0/stage/lib;C:/deps/db-4.8.30.NC/build_windows/Win32/Debug_static;C:/deps/openssl-1.0.1j/out32.dbg;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86)</LibraryPath>
     <CustomBuildBeforeTargets>ClCompile</CustomBuildBeforeTargets>
+    <IntDir>$(SolutionDir)\$(ProjectName)\$(Platform)\$(Configuration)\obj\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <OutDir>$(SolutionDir)\$(ProjectName)\$(Platform)\$(Configuration)\</OutDir>
@@ -82,6 +83,7 @@
     <IncludePath>..\..\src\leveldb\helpers\memenv;C:\deps;C:\deps\protobuf-2.5.0\src;C:\deps\qrencode-win32\qrencode-win32;c:\deps\db-4.8.30.NC\build_windows;c:\deps\openssl-1.0.1j\include;C:\Qt\4.8.6-vs\include\;C:\Qt\4.8.6-vs\include\QtCore;C:\Qt\4.8.6-vs\include\QtNetwork;C:\Qt\4.8.6-vs\include\QtGui;c:\boost\boost_1_57_0;$(VC_IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
     <LibraryPath>C:\deps\protobuf-2.5.0\vsprojects\Release;C:\deps\qrencode-win32\qrencode-win32\vc12\.build\Release-Lib;c:\Qt\4.8.6-vs\lib;C:\deps\miniupnpc\msvc\Release;C:\boost\boost_1_57_0\stage\lib;C:\deps\db-4.8.30.NC\build_windows\Win32\Release_static;C:\deps\openssl-1.0.1j\out32;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86)</LibraryPath>
     <CustomBuildBeforeTargets>ClCompile</CustomBuildBeforeTargets>
+    <IntDir>$(SolutionDir)\$(ProjectName)\$(Platform)\$(Configuration)\obj\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <OutDir>$(SolutionDir)\$(ProjectName)\$(Platform)\$(Configuration)\</OutDir>
