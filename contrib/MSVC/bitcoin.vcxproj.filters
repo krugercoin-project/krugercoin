@@ -587,6 +587,9 @@
     <ClCompile Include="GeneratedFiles\Release\moc_macdockiconhandler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\src\scrypt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\..\src\qt\walletview.h">
@@ -1143,6 +1146,9 @@
     <ClInclude Include="..\..\src\walletdb.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\src\scrypt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\..\src\qt\res\icons\bitcoin_testnet.png">
@@ -1291,6 +1297,7 @@
     <None Include="..\..\src\qt\res\icons\bitcoin.icns">
       <Filter>Resource Files</Filter>
     </None>
+    <None Include="..\..\src\Makefile.am" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="..\..\src\qt\res\bitcoin-qt-res.rc" />

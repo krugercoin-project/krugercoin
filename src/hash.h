@@ -9,6 +9,8 @@
 #include "serialize.h"
 #include "uint256.h"
 #include "version.h"
+#include "util.h"
+#include "scrypt.h"
 
 #include <vector>
 
@@ -24,6 +26,11 @@ inline uint256 Hash(const T1 pbegin, const T1 pend)
     uint256 hash2;
     SHA256((unsigned char*)&hash1, sizeof(hash1), (unsigned char*)&hash2);
     return hash2;
+}
+
+inline void PoWHash(const char* pbegin, char* thash)
+{
+    scrypt_1024_1_1_256(pbegin, thash);
 }
 
 class CHashWriter
@@ -55,6 +62,13 @@ public:
         uint256 hash2;
         SHA256((unsigned char*)&hash1, sizeof(hash1), (unsigned char*)&hash2);
         return hash2;
+    }
+
+    uint256 GetPoWHash() const
+    {
+        uint256 thash;
+        scrypt_1024_1_1_256(BEGIN(nVersion), BEGIN(thash));
+        return thash;
     }
 
     template<typename T>

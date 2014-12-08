@@ -216,6 +216,7 @@
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"C:\Qt\4.8.6-vs\bin\moc.exe"  "%..\..\src\qt\bitcoin.cpp" -o ".\GeneratedFiles\$(ConfigurationName)\bitcoin.moc"  -DQT_GUI -DUNICODE -DENABLE_WALLET -DWIN32 -DWIN64 -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB</Command>
     </CustomBuildStep>
     <ClCompile Include="..\..\src\qt\bitcoin.cpp" />
+    <ClCompile Include="..\..\src\scrypt.cpp" />
     <ClCompile Include="GeneratedFiles\Debug\bitcoin.moc">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
@@ -1530,6 +1531,7 @@
     <ClInclude Include="..\..\src\rpcprotocol.h" />
     <ClInclude Include="..\..\src\rpcserver.h" />
     <ClInclude Include="..\..\src\script.h" />
+    <ClInclude Include="..\..\src\scrypt.h" />
     <ClInclude Include="..\..\src\serialize.h" />
     <ClInclude Include="..\..\src\sync.h" />
     <ClInclude Include="..\..\src\threadsafety.h" />
@@ -3557,6 +3559,7 @@
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(FullPath);%(AdditionalInputs)</AdditionalInputs>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(FullPath);%(AdditionalInputs)</AdditionalInputs>
     </CustomBuild>
+    <None Include="..\..\src\Makefile.am" />
     <None Include="..\..\src\qt\res\icons\bitcoin.icns" />
     <None Include="..\..\src\qt\res\movies\update_spinner.mng">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
