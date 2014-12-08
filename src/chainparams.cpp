@@ -130,7 +130,6 @@ public:
         genesis.nTime = 1371625933;
         genesis.nNonce = 100784949;
         hashGenesisBlock = genesis.GetHash();
-        //assert(hashGenesisBlock == uint256("0xac88ab7fa9b9a1f6abf6e5c35aa25ac5a1a0f45d7a24a5df275059cb181aed7c"));
         assert(hashGenesisBlock == uint256("0xc446cb1931e692f900e0ca77bc3c70e4aa9d0445aa9ef3c820bbf78152bfe249"));
 
         vFixedSeeds.clear();
@@ -165,9 +164,9 @@ public:
         genesis.nBits = 0x207fffff;
         genesis.nNonce = 2;
         hashGenesisBlock = genesis.GetHash();
-        nDefaultPort = 18444;
+        nDefaultPort = 18774;
         strDataDir = "regtest";
-        assert(hashGenesisBlock == uint256("0x0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206"));
+        assert(hashGenesisBlock == uint256("0x42fd2467a1126a84fe2695691cb7b6a57459c98ee73f4a754211432b872c68bf"));
 
         vSeeds.clear();  // Regtest mode doesn't have any DNS seeds.
     }
@@ -175,7 +174,7 @@ public:
     virtual bool RequireRPCPassword() const { return false; }
     virtual Network NetworkID() const { return CChainParams::REGTEST; }
 };
-//static CRegTestParams regTestParams;
+static CRegTestParams regTestParams;
 
 static CChainParams *pCurrentParams = &mainParams;
 
