@@ -99,8 +99,8 @@
         <translation>Гаманец зашыфраваны</translation>
     </message>
     <message>
-        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Bitcoin зачыняецца дзеля завяршэння працэсса шыфравання. Памятайце, што шыфраванне гаманца цалкам абараняе вашыя сродкі ад скрадання шкоднымі праграмамі якія могуць пранікнуць у ваш камп'ютар.</translation>
+        <source>Krugercoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <translation>Krugercoin зачыняецца дзеля завяршэння працэсса шыфравання. Памятайце, што шыфраванне гаманца цалкам абараняе вашыя сродкі ад скрадання шкоднымі праграмамі якія могуць пранікнуць у ваш камп'ютар.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -128,7 +128,7 @@
     </message>
     </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>KrugercoinGUI</name>
     <message>
         <source>Synchronizing with network...</source>
         <translation>Сінхранізацыя з сецівам...</translation>
@@ -158,7 +158,7 @@
         <translation>Выйсці з праграмы</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin</source>
+        <source>Show information about Krugercoin</source>
         <translation>Паказаць звесткі пра Біткойн</translation>
     </message>
     <message>
@@ -206,12 +206,12 @@
         <translation>[testnet]</translation>
     </message>
     <message>
-        <source>Bitcoin client</source>
-        <translation>Bitcoin кліент</translation>
+        <source>Krugercoin client</source>
+        <translation>Krugercoin кліент</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n актыўнае злучэнне з Bitcoin-сецівам</numerusform><numerusform>%n актыўных злучэнняў з Bitcoin-сецівам</numerusform></translation>
+        <source>%n active connection(s) to Krugercoin network</source>
+        <translation><numerusform>%n актыўнае злучэнне з Krugercoin-сецівам</numerusform><numerusform>%n актыўных злучэнняў з Krugercoin-сецівам</numerusform></translation>
     </message>
     <message>
         <source>Error</source>
@@ -383,7 +383,7 @@ Address: %4
 <context>
     <name>QObject</name>
     <message>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <source>Enter a Krugercoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
         <translation>Увядзіце Біткойн-адрас (ўзор 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
@@ -526,7 +526,7 @@ Address: %4
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <source>Enter a Krugercoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
         <translation>Увядзіце Біткойн-адрас (ўзор 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     </context>
@@ -816,8 +816,8 @@ Address: %4
         <translation>Вызначыць канфігурацыйны файл (зыходна: bitcoin.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: bitcoind.pid)</source>
-        <translation>Вызначыць pid-файл (зыходна: bitcoind.pid)</translation>
+        <source>Specify pid file (default: krugercoind.pid)</source>
+        <translation>Вызначыць pid-файл (зыходна: krugercoind.pid)</translation>
     </message>
     <message>
         <source>Specify data directory</source>
@@ -908,12 +908,12 @@ Address: %4
         <translation>Памылка загрузкі wallet.dat: гаманец пашкоджаны</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin</source>
-        <translation>Памылка загрузкі wallet.dat: гаманец патрабуе новую версію Bitcoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Krugercoin</source>
+        <translation>Памылка загрузкі wallet.dat: гаманец патрабуе новую версію Krugercoin</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Bitcoin to complete</source>
-        <translation>Гаманец мае быць перазапісаны: патрэбны перазапуск Bitcoin для выканання</translation>
+        <source>Wallet needed to be rewritten: restart Krugercoin to complete</source>
+        <translation>Гаманец мае быць перазапісаны: патрэбны перазапуск Krugercoin для выканання</translation>
     </message>
     <message>
         <source>Error loading wallet.dat</source>

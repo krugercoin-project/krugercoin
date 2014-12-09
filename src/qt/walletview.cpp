@@ -78,7 +78,7 @@ WalletView::~WalletView()
 {
 }
 
-void WalletView::setBitcoinGUI(BitcoinGUI *gui)
+void WalletView::setKrugercoinGUI(KrugercoinGUI *gui)
 {
     if (gui)
     {

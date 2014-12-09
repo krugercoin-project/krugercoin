@@ -112,7 +112,7 @@
     </message>
     </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>KrugercoinGUI</name>
     <message>
         <source>Synchronizing with network...</source>
         <translation>Cysoni â'r rhwydwaith...</translation>
@@ -138,8 +138,8 @@
         <translation>Gadael rhaglen</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin</source>
-        <translation>Dangos gwybodaeth am Bitcoin</translation>
+        <source>Show information about Krugercoin</source>
+        <translation>Dangos gwybodaeth am Krugercoin</translation>
     </message>
     <message>
         <source>&amp;Options...</source>

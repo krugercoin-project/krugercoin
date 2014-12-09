@@ -1,6 +1,6 @@
 Mac OS X Build Instructions and Notes
 ====================================
-This guide will show you how to build bitcoind(headless client) for OSX.
+This guide will show you how to build krugercoind(headless client) for OSX.
 
 Notes
 -----
@@ -78,14 +78,14 @@ After exiting, you'll get a warning that the install is keg-only, which means it
     $ brew --force link berkeley-db4
 
 
-### Building `bitcoind`
+### Building `krugercoind`
 
 1. Clone the github tree to get the source code and go into the directory.
 
         git clone https://github.com/bitcoin/bitcoin.git
         cd bitcoin
 
-2.  Build bitcoind:
+2.  Build krugercoind:
 
         ./autogen.sh
         ./configure
@@ -97,11 +97,11 @@ After exiting, you'll get a warning that the install is keg-only, which means it
 
 Creating a release build
 ------------------------
-You can ignore this section if you are building `bitcoind` for your own use.
+You can ignore this section if you are building `krugercoind` for your own use.
 
-bitcoind/bitcoin-cli binaries are not included in the Bitcoin-Qt.app bundle.
+krugercoind/krugercoin-cli binaries are not included in the Bitcoin-Qt.app bundle.
 
-If you are building `bitcoind` or `Bitcoin-Qt` for others, your build machine should be set up
+If you are building `krugercoind` or `Bitcoin-Qt` for others, your build machine should be set up
 as follows for maximum compatibility:
 
 All dependencies should be compiled with these flags:
@@ -116,10 +116,10 @@ bundle is packaged and signed to create the .dmg disk image that is distributed.
 Running
 -------
 
-It's now available at `./bitcoind`, provided that you are still in the `src`
+It's now available at `./krugercoind`, provided that you are still in the `src`
 directory. We have to first create the RPC configuration file, though.
 
-Run `./bitcoind` to get the filename where it should be put, or just try these
+Run `./krugercoind` to get the filename where it should be put, or just try these
 commands:
 
     echo -e "rpcuser=bitcoinrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/Bitcoin/bitcoin.conf"
@@ -133,6 +133,6 @@ you can monitor its process by looking at the debug.log file, like this:
 
 Other commands:
 
-    ./bitcoind -daemon # to start the bitcoin daemon.
-    ./bitcoin-cli --help  # for a list of command-line options.
-    ./bitcoin-cli help    # When the daemon is running, to get a list of RPC commands
+    ./krugercoind -daemon # to start the bitcoin daemon.
+    ./krugercoin-cli --help  # for a list of command-line options.
+    ./krugercoin-cli help    # When the daemon is running, to get a list of RPC commands

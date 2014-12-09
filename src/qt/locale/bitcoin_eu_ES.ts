@@ -120,7 +120,7 @@
     </message>
     </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>KrugercoinGUI</name>
     <message>
         <source>Synchronizing with network...</source>
         <translation>Sarearekin sinkronizatzen...</translation>
@@ -150,8 +150,8 @@
         <translation>Irten aplikaziotik</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin</source>
-        <translation>Erakutsi Bitcoin-i buruzko informazioa</translation>
+        <source>Show information about Krugercoin</source>
+        <translation>Erakutsi Krugercoin-i buruzko informazioa</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -159,7 +159,7 @@
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation>Erakutsi Bitcoin-i buruzko informazioa</translation>
+        <translation>Erakutsi Krugercoin-i buruzko informazioa</translation>
     </message>
     <message>
         <source>&amp;Options...</source>
@@ -190,8 +190,8 @@
         <translation>[testnet]</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>Konexio aktibo %n Bitcoin-en sarera</numerusform><numerusform>%n konexio aktibo Bitcoin-en sarera</numerusform></translation>
+        <source>%n active connection(s) to Krugercoin network</source>
+        <translation><numerusform>Konexio aktibo %n Krugercoin-en sarera</numerusform><numerusform>%n konexio aktibo Krugercoin-en sarera</numerusform></translation>
     </message>
     <message>
         <source>Up to date</source>
@@ -331,7 +331,7 @@
 <context>
     <name>QObject</name>
     <message>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <source>Enter a Krugercoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
         <translation>Sartu Bitocin helbide bat (adb.: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L) </translation>
     </message>
 </context>
@@ -474,7 +474,7 @@
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <source>Enter a Krugercoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
         <translation>Sartu Bitocin helbide bat (adb.: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L) </translation>
     </message>
     </context>
@@ -728,8 +728,8 @@
         <translation>Ezarpen fitxategia aukeratu (berezkoa: bitcoin.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: bitcoind.pid)</source>
-        <translation>pid fitxategia aukeratu (berezkoa: bitcoind.pid)</translation>
+        <source>Specify pid file (default: krugercoind.pid)</source>
+        <translation>pid fitxategia aukeratu (berezkoa: krugercoind.pid)</translation>
     </message>
     <message>
         <source>This help message</source>

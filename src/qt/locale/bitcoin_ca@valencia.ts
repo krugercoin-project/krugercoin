@@ -28,7 +28,7 @@
     <name>AskPassphraseDialog</name>
     </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>KrugercoinGUI</name>
     </context>
 <context>
     <name>ClientModel</name>

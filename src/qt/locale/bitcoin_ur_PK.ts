@@ -56,7 +56,7 @@
     </message>
     </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>KrugercoinGUI</name>
     <message>
         <source>Error</source>
         <translation>نقص</translation>

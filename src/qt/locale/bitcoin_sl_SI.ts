@@ -2,12 +2,12 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About Bitcoin Core</source>
-        <translation>O jedru Bitcoina</translation>
+        <source>About Krugercoin Core</source>
+        <translation>O jedru Krugercoina</translation>
     </message>
     <message>
-        <source>&lt;b&gt;Bitcoin Core&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Jedro Bitcoina&lt;/b&gt; različica</translation>
+        <source>&lt;b&gt;Krugercoin Core&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Jedro Krugercoina&lt;/b&gt; različica</translation>
     </message>
     </context>
 <context>
@@ -77,12 +77,12 @@
         <translation>Prejemati naslovi</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>To so Bitcoin naslovi za pošiljanje plačilnih čekov. Vedno preveri količino in naslov za prejemanje pred pošiljanjem kovancev.</translation>
+        <source>These are your Krugercoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>To so Krugercoin naslovi za pošiljanje plačilnih čekov. Vedno preveri količino in naslov za prejemanje pred pošiljanjem kovancev.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>To so vaši Bitcoin naslovi za prejemanje plačil. Priporočljivo je uporabljati nov prejemni naslov za vsako izmed transakcij.</translation>
+        <source>These are your Krugercoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>To so vaši Krugercoin naslovi za prejemanje plačil. Priporočljivo je uporabljati nov prejemni naslov za vsako izmed transakcij.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -191,8 +191,8 @@
         <translation>Denarnica šifrirana</translation>
     </message>
     <message>
-        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Bitcoin se bo zaprl, da bi dokončal proces šifriranja. Zapomnite si, da šifriranje vaše denarnice ne more popolnoma zaščititi pred krajami zlonamernih programov, ki bi lahko bili nameščeni na vašem računalniku.</translation>
+        <source>Krugercoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <translation>Krugercoin se bo zaprl, da bi dokončal proces šifriranja. Zapomnite si, da šifriranje vaše denarnice ne more popolnoma zaščititi pred krajami zlonamernih programov, ki bi lahko bili nameščeni na vašem računalniku.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -220,7 +220,7 @@
     </message>
     </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>KrugercoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Podpiši &amp;sporočilo ...</translation>
@@ -254,8 +254,8 @@
         <translation>Izhod iz aplikacije</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin</source>
-        <translation>Pokaži informacije o Bitcoinu</translation>
+        <source>Show information about Krugercoin</source>
+        <translation>Pokaži informacije o Krugercoinu</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -302,12 +302,12 @@
         <translation>Poustvarjam kazalo blokov na disku...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Pošlji kovance na Bitcoin naslov</translation>
+        <source>Send coins to a Krugercoin address</source>
+        <translation>Pošlji kovance na Krugercoin naslov</translation>
     </message>
     <message>
-        <source>Modify configuration options for Bitcoin</source>
-        <translation>Spremeni konfiguracijo nastavitev za Bitcoin</translation>
+        <source>Modify configuration options for Krugercoin</source>
+        <translation>Spremeni konfiguracijo nastavitev za Krugercoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -326,8 +326,8 @@
         <translation>Odpri razhroščevalno in diagnostično konzolo</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Krugercoin</source>
+        <translation>Krugercoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -354,8 +354,8 @@
         <translation>Šifiraj zasebne ključe v moji denarnici</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Za dokaz, da ste lastniki sporočil, se podpišite z Bitcoin naslovom</translation>
+        <source>Sign messages with your Krugercoin addresses to prove you own them</source>
+        <translation>Za dokaz, da ste lastniki sporočil, se podpišite z Krugercoin naslovom</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -378,12 +378,12 @@
         <translation>[testnet]</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Jedro Bitcoina</translation>
+        <source>Krugercoin Core</source>
+        <translation>Jedro Krugercoina</translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin Core</source>
-        <translation>&amp;O jedru Bitcoina</translation>
+        <source>&amp;About Krugercoin Core</source>
+        <translation>&amp;O jedru Krugercoina</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -395,14 +395,14 @@
     </message>
     <message>
         <source>Open a bitcoin: URI or payment request</source>
-        <translation>Odpri Bitcoin: URI ali zahteva o plačilu</translation>
+        <translation>Odpri Krugercoin: URI ali zahteva o plačilu</translation>
     </message>
     <message>
-        <source>Bitcoin client</source>
-        <translation>Bitcoin odjemalec</translation>
+        <source>Krugercoin client</source>
+        <translation>Krugercoin odjemalec</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
+        <source>%n active connection(s) to Krugercoin network</source>
         <translation><numerusform>%n aktivna povezava v bitcoin omrežje</numerusform><numerusform>%n aktivni povezavi v bitcoin omrežje</numerusform><numerusform>%n aktivnih povezav v bitcoin omrežje</numerusform><numerusform>%n aktivnih povezav v bitcoin omrežje</numerusform></translation>
     </message>
     <message numerus="yes">
@@ -663,8 +663,8 @@ Naslov: %4
         <translation>Uredi naslov za odlive</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>Vnešeni naslov "%1" ni veljaven Bitcoin naslov.</translation>
+        <source>The entered address "%1" is not a valid Krugercoin address.</source>
+        <translation>Vnešeni naslov "%1" ni veljaven Krugercoin naslov.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -685,8 +685,8 @@ Naslov: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Jedro Bitcoina</translation>
+        <source>Krugercoin Core</source>
+        <translation>Jedro Krugercoina</translation>
     </message>
     <message>
         <source>version</source>
@@ -720,12 +720,12 @@ Naslov: %4
         <translation>Dobrodošli</translation>
     </message>
     <message>
-        <source>Welcome to Bitcoin Core.</source>
-        <translation>Dobrodošli v jedru Bitcoina</translation>
+        <source>Welcome to Krugercoin Core.</source>
+        <translation>Dobrodošli v jedru Krugercoina</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Krugercoin</source>
+        <translation>Krugercoin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -766,12 +766,12 @@ Naslov: %4
         <translation>Nakazilo plačila &amp; provizija</translation>
     </message>
     <message>
-        <source>Automatically start Bitcoin after logging in to the system.</source>
-        <translation>Po prijavi v sistem samodejno zaženite Bitcoin.</translation>
+        <source>Automatically start Krugercoin after logging in to the system.</source>
+        <translation>Po prijavi v sistem samodejno zaženite Krugercoin.</translation>
     </message>
     <message>
-        <source>&amp;Start Bitcoin on system login</source>
-        <translation>&amp;Zaženi Bitcoin ob prijavi v sistem</translation>
+        <source>&amp;Start Krugercoin on system login</source>
+        <translation>&amp;Zaženi Krugercoin ob prijavi v sistem</translation>
     </message>
     <message>
         <source>MB</source>
@@ -786,8 +786,8 @@ Naslov: %4
         <translation>&amp;Denarnica</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Avtomatično odpri vrata Bitcoin odjemalca na usmerjevalniku. To deluje samo, če vaš usmerjevalnik podpira UPnP in je omogočen.</translation>
+        <source>Automatically open the Krugercoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Avtomatično odpri vrata Krugercoin odjemalca na usmerjevalniku. To deluje samo, če vaš usmerjevalnik podpira UPnP in je omogočen.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -842,8 +842,8 @@ Naslov: %4
         <translation>Vmesnik uporabnika &amp;jezik:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin.</source>
-        <translation>Tukaj je mogoče nastaviti uporabniški vmesnik za jezike. Ta nastavitev bo prikazana šele, ko boste znova zagnali Bitcoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Krugercoin.</source>
+        <translation>Tukaj je mogoče nastaviti uporabniški vmesnik za jezike. Ta nastavitev bo prikazana šele, ko boste znova zagnali Krugercoin.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -869,8 +869,8 @@ Naslov: %4
         <translation>Oblika</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Prikazanim podatkom je lahko potekel rok. Vaša denarnica bo po vzpostavitvi povezave samodejno sinhronizirana z Bitcoin omrežjem, ampak ta proces še ni bil zaključen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Krugercoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Prikazanim podatkom je lahko potekel rok. Vaša denarnica bo po vzpostavitvi povezave samodejno sinhronizirana z Krugercoin omrežjem, ampak ta proces še ni bil zaključen.</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -935,8 +935,8 @@ Naslov: %4
 <context>
     <name>QObject</name>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Krugercoin</source>
+        <translation>Krugercoin</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" does not exist.</source>
@@ -947,7 +947,7 @@ Naslov: %4
         <translation>Napaka: Neveljavna kombinacija -regtest and -testnet</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <source>Enter a Krugercoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
         <translation>Vnesite bitcoin naslov (npr.: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
@@ -1053,8 +1053,8 @@ Naslov: %4
         <translation>Počisti konzolo</translation>
     </message>
     <message>
-        <source>Welcome to the Bitcoin RPC console.</source>
-        <translation>Dobrodošli na Bitcoin RPC konzoli.</translation>
+        <source>Welcome to the Krugercoin RPC console.</source>
+        <translation>Dobrodošli na Krugercoin RPC konzoli.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1325,8 +1325,8 @@ Naslov: %4
         <translation>Najdena kopija naslova, možnost pošiljanja na vsakega izmed naslov le enkrat ob pošiljanju.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation>Opozorilo: Neveljaven Bitcoin naslov</translation>
+        <source>Warning: Invalid Krugercoin address</source>
+        <translation>Opozorilo: Neveljaven Krugercoin naslov</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1446,7 +1446,7 @@ Naslov: %4
         <translation>Preveri &amp;Sporočilo</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <source>Enter a Krugercoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
         <translation>Vnesite bitcoin naslov (npr.: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
@@ -1497,8 +1497,8 @@ Naslov: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Jedro Bitcoina</translation>
+        <source>Krugercoin Core</source>
+        <translation>Jedro Krugercoina</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -1916,7 +1916,7 @@ Naslov: %4
         <translation>Določi datoteko z nastavitvami (privzeta: bitcoin.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: bitcoind.pid)</source>
+        <source>Specify pid file (default: krugercoind.pid)</source>
         <translation>Določi pid datoteko (privzeta: bitcoin.pid)</translation>
     </message>
     <message>
@@ -2020,8 +2020,8 @@ Naslov: %4
         <translation>Informacije</translation>
     </message>
     <message>
-        <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation>SSL možnosti: (glejte Bitcoin Wiki za navodla, kako nastaviti SSL)</translation>
+        <source>SSL options: (see the Krugercoin Wiki for SSL setup instructions)</source>
+        <translation>SSL možnosti: (glejte Krugercoin Wiki za navodla, kako nastaviti SSL)</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
@@ -2128,12 +2128,12 @@ Naslov: %4
         <translation>Napaka pri nalaganju wallet.dat: denarnica pokvarjena</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin</source>
-        <translation>Napaka pri nalaganju wallet.dat: denarnica zahteva novejšo različico Bitcoina</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Krugercoin</source>
+        <translation>Napaka pri nalaganju wallet.dat: denarnica zahteva novejšo različico Krugercoina</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Bitcoin to complete</source>
-        <translation>Denarnica mora biti prepisana: ponovno zaženite Bitcoin za doknčanje</translation>
+        <source>Wallet needed to be rewritten: restart Krugercoin to complete</source>
+        <translation>Denarnica mora biti prepisana: ponovno zaženite Krugercoin za doknčanje</translation>
     </message>
     <message>
         <source>Error loading wallet.dat</source>

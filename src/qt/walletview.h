@@ -7,7 +7,7 @@
 
 #include <QStackedWidget>
 
-class BitcoinGUI;
+class KrugercoinGUI;
 class ClientModel;
 class OverviewPage;
 class ReceiveCoinsDialog;
@@ -35,7 +35,7 @@ public:
     explicit WalletView(QWidget *parent);
     ~WalletView();
 
-    void setBitcoinGUI(BitcoinGUI *gui);
+    void setKrugercoinGUI(KrugercoinGUI *gui);
     /** Set the client model.
         The client model represents the part of the core that communicates with the P2P network, and is wallet-agnostic.
     */

@@ -120,7 +120,7 @@
     </message>
     </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>KrugercoinGUI</name>
     <message>
         <source>Synchronizing with network...</source>
         <translation>Sincronitzant amb la xarxa...</translation>
@@ -146,8 +146,8 @@
         <translation>Sortir de l'aplicació</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin</source>
-        <translation>Informació sobre Bitcoin</translation>
+        <source>Show information about Krugercoin</source>
+        <translation>Informació sobre Krugercoin</translation>
     </message>
     <message>
         <source>&amp;Options...</source>
