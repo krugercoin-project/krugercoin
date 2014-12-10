@@ -962,7 +962,7 @@ boost::filesystem::path GetDefaultDataDir()
     return pathRet / "Krugercoin";
 #else
     // Unix
-    return pathRet / ".bitcoin";
+    return pathRet / ".krugercoin";
 #endif
 #endif
 }
