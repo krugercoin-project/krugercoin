@@ -15,9 +15,9 @@ KrugercoinUnits::KrugercoinUnits(QObject *parent):
 QList<KrugercoinUnits::Unit> KrugercoinUnits::availableUnits()
 {
     QList<KrugercoinUnits::Unit> unitlist;
-    unitlist.append(BTC);
-    unitlist.append(mBTC);
-    unitlist.append(uBTC);
+    unitlist.append(KGC);
+    unitlist.append(mKGC);
+    unitlist.append(uKGC);
     return unitlist;
 }
 
@@ -25,9 +25,9 @@ bool KrugercoinUnits::valid(int unit)
 {
     switch(unit)
     {
-    case BTC:
-    case mBTC:
-    case uBTC:
+    case KGC:
+    case mKGC:
+    case uKGC:
         return true;
     default:
         return false;
@@ -38,9 +38,9 @@ QString KrugercoinUnits::name(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("BTC");
-    case mBTC: return QString("mBTC");
-    case uBTC: return QString::fromUtf8("μBTC");
+    case KGC: return QString("KGC");
+    case mKGC: return QString("mKGC");
+    case uKGC: return QString::fromUtf8("μKGC");
     default: return QString("???");
     }
 }
@@ -49,9 +49,9 @@ QString KrugercoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("Krugercoins");
-    case mBTC: return QString("Milli-Krugercoins (1 / 1,000)");
-    case uBTC: return QString("Micro-Krugercoins (1 / 1,000,000)");
+    case KGC: return QString("Krugercoins");
+    case mKGC: return QString("Milli-Krugercoins (1 / 1,000)");
+    case uKGC: return QString("Micro-Krugercoins (1 / 1,000,000)");
     default: return QString("???");
     }
 }
@@ -60,9 +60,9 @@ qint64 KrugercoinUnits::factor(int unit)
 {
     switch(unit)
     {
-    case BTC:  return 100000000;
-    case mBTC: return 100000;
-    case uBTC: return 100;
+    case KGC:  return 100000000;
+    case mKGC: return 100000;
+    case uKGC: return 100;
     default:   return 100000000;
     }
 }
@@ -71,9 +71,9 @@ qint64 KrugercoinUnits::maxAmount(int unit)
 {
     switch(unit)
     {
-    case BTC:  return Q_INT64_C(21000000);
-    case mBTC: return Q_INT64_C(21000000000);
-    case uBTC: return Q_INT64_C(21000000000000);
+    case KGC:  return Q_INT64_C(21000000);
+    case mKGC: return Q_INT64_C(21000000000);
+    case uKGC: return Q_INT64_C(21000000000000);
     default:   return 0;
     }
 }
@@ -82,9 +82,9 @@ int KrugercoinUnits::amountDigits(int unit)
 {
     switch(unit)
     {
-    case BTC: return 8; // 21,000,000 (# digits, without commas)
-    case mBTC: return 11; // 21,000,000,000
-    case uBTC: return 14; // 21,000,000,000,000
+    case KGC: return 8; // 21,000,000 (# digits, without commas)
+    case mKGC: return 11; // 21,000,000,000
+    case uKGC: return 14; // 21,000,000,000,000
     default: return 0;
     }
 }
@@ -93,9 +93,9 @@ int KrugercoinUnits::decimals(int unit)
 {
     switch(unit)
     {
-    case BTC: return 8;
-    case mBTC: return 5;
-    case uBTC: return 2;
+    case KGC: return 8;
+    case mKGC: return 5;
+    case uKGC: return 2;
     default: return 0;
     }
 }

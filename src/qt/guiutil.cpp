@@ -151,7 +151,7 @@ bool parseKrugercoinURI(const QUrl &uri, SendCoinsRecipient *out)
         {
             if(!i->second.isEmpty())
             {
-                if(!KrugercoinUnits::parse(KrugercoinUnits::BTC, i->second, &rv.amount))
+                if(!KrugercoinUnits::parse(KrugercoinUnits::KGC, i->second, &rv.amount))
                 {
                     return false;
                 }
@@ -190,7 +190,7 @@ QString formatKrugercoinURI(const SendCoinsRecipient &info)
 
     if (info.amount)
     {
-        ret += QString("?amount=%1").arg(KrugercoinUnits::format(KrugercoinUnits::BTC, info.amount));
+        ret += QString("?amount=%1").arg(KrugercoinUnits::format(KrugercoinUnits::KGC, info.amount));
         paramCount++;
     }
 

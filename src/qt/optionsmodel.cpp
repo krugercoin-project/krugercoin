@@ -56,7 +56,7 @@ void OptionsModel::Init()
 
     // Display
     if (!settings.contains("nDisplayUnit"))
-        settings.setValue("nDisplayUnit", KrugercoinUnits::BTC);
+        settings.setValue("nDisplayUnit", KrugercoinUnits::KGC);
     nDisplayUnit = settings.value("nDisplayUnit").toInt();
 
     if (!settings.contains("bDisplayAddresses"))
