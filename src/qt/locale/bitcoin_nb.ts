@@ -432,8 +432,8 @@ Dette produktet inneholder programvare utviklet av OpenSSL Project for bruk i Op
         <translation>Krugercoin Core</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Forespør betalinger (genererer QR-koder og bitcoin: URIer)</translation>
+        <source>Request payments (generates QR codes and krugercoin: URIs)</source>
+        <translation>Forespør betalinger (genererer QR-koder og krugercoin: URIer)</translation>
     </message>
     <message>
         <source>&amp;About Krugercoin Core</source>
@@ -448,7 +448,7 @@ Dette produktet inneholder programvare utviklet av OpenSSL Project for bruk i Op
         <translation>Vis listen over bruke mottaksadresser og merkelapper</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI or payment request</source>
+        <source>Open a krugercoin: URI or payment request</source>
         <translation>Åpne en Krugercoin: URI eller betalingsetterspørring</translation>
     </message>
     <message>
@@ -1954,7 +1954,7 @@ Adresse: %4
         <translation>Skriv inn en merkelapp for denne adressen for å legge den til listen av brukte adresser</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Krugercoin network.</source>
+        <source>A message that was attached to the krugercoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Krugercoin network.</source>
         <translation>En melding som var tilknyttet bitcoinen: URI vil bli lagret med transaksjonen for din oversikt. Denne meldingen vil ikke bli sendt over Krugercoin-nettverket.</translation>
     </message>
     <message>

@@ -408,8 +408,8 @@ Este produto inclúe software desenvolvido polo OpenSSL Project para o uso no Op
         <translation>Core de Krugercoin</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Solicitar pagos (xenera códigos QR e bitcoin: URIs)</translation>
+        <source>Request payments (generates QR codes and krugercoin: URIs)</source>
+        <translation>Solicitar pagos (xenera códigos QR e krugercoin: URIs)</translation>
     </message>
     <message>
         <source>&amp;About Krugercoin Core</source>
@@ -424,8 +424,8 @@ Este produto inclúe software desenvolvido polo OpenSSL Project para o uso no Op
         <translation>Amosar a listaxe de etiquetas e direccións para recibir empregadas</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI or payment request</source>
-        <translation>Abrir un bitcoin: URI ou solicitude de pago</translation>
+        <source>Open a krugercoin: URI or payment request</source>
+        <translation>Abrir un krugercoin: URI ou solicitude de pago</translation>
     </message>
     <message>
         <source>Krugercoin client</source>

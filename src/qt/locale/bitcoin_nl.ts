@@ -432,8 +432,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
         <translation>Krugercoin Kern</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Vraag betaling aan (genereert QR codes en bitcoin: URIs)</translation>
+        <source>Request payments (generates QR codes and krugercoin: URIs)</source>
+        <translation>Vraag betaling aan (genereert QR codes en krugercoin: URIs)</translation>
     </message>
     <message>
         <source>&amp;About Krugercoin Core</source>
@@ -448,8 +448,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
         <translation>Toon de lijst met gebruikte ontvangst adressen en labels</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI or payment request</source>
-        <translation>Open een bitcoin: URI of betalingsverzoek</translation>
+        <source>Open a krugercoin: URI or payment request</source>
+        <translation>Open een krugercoin: URI of betalingsverzoek</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -1954,8 +1954,8 @@ Adres: %4
         <translation>Vul een label voor dit adres in om het aan de lijst met gebruikte adressen toe te voegen</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Krugercoin network.</source>
-        <translation>Een bericht dat werd toegevoegd aan de bitcoin: URI dewelke wordt opgeslagen met de transactie ter referentie. Opmerking: Dit bericht zal niet worden verzonden over het Krugercoin netwerk.</translation>
+        <source>A message that was attached to the krugercoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Krugercoin network.</source>
+        <translation>Een bericht dat werd toegevoegd aan de krugercoin: URI dewelke wordt opgeslagen met de transactie ter referentie. Opmerking: Dit bericht zal niet worden verzonden over het Krugercoin netwerk.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>

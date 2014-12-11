@@ -432,8 +432,8 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l'uso del T
         <translation>Krugercoin Core</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Richiedi pagamenti (genera codici QR e bitcoin: URI)</translation>
+        <source>Request payments (generates QR codes and krugercoin: URIs)</source>
+        <translation>Richiedi pagamenti (genera codici QR e krugercoin: URI)</translation>
     </message>
     <message>
         <source>&amp;About Krugercoin Core</source>
@@ -448,7 +448,7 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l'uso del T
         <translation>Mostra la lista degli indirizzi di ricezione utilizzati</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI or payment request</source>
+        <source>Open a krugercoin: URI or payment request</source>
         <translation>Apri un URI o una richiesta di pagamento</translation>
     </message>
     <message>
@@ -1952,7 +1952,7 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Inserisci un'etichetta per questo indirizzo per aggiungerlo alla lista degli indirizzi utilizzati</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Krugercoin network.</source>
+        <source>A message that was attached to the krugercoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Krugercoin network.</source>
         <translation>Messaggio incluso nel bitcoin URI e che sarà memorizzato con la transazione per vostro riferimento. Nota: Questo messaggio non sarà inviato attraverso la rete Krugercoin.</translation>
     </message>
     <message>

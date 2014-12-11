@@ -420,7 +420,7 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
         <translation>Krugercoin Core</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
+        <source>Request payments (generates QR codes and krugercoin: URIs)</source>
         <translation>Cereti plati (genereaza coduri QR si bitcoin-uri: URls)</translation>
     </message>
     <message>
@@ -436,7 +436,7 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
         <translation>Aratati lista de adrese pentru primire si etichete </translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI or payment request</source>
+        <source>Open a krugercoin: URI or payment request</source>
         <translation>Deschideti un bitcoin: o adresa URI sau o cerere de plata</translation>
     </message>
     <message>

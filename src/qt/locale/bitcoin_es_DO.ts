@@ -427,7 +427,7 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
         <translation>Núcleo de Krugercoin</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
+        <source>Request payments (generates QR codes and krugercoin: URIs)</source>
         <translation>Solicitar pagos (genera codigo QR y URL's de Krugercoin)</translation>
     </message>
     <message>
@@ -443,8 +443,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
         <translation>Muestra la lista de direcciones de recepción y etiquetas</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI or payment request</source>
-        <translation>Abrir un bitcoin: URI o petición de pago</translation>
+        <source>Open a krugercoin: URI or payment request</source>
+        <translation>Abrir un krugercoin: URI o petición de pago</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>

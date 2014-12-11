@@ -114,7 +114,7 @@ void setupAmountWidget(QLineEdit *widget, QWidget *parent)
 
 bool parseKrugercoinURI(const QUrl &uri, SendCoinsRecipient *out)
 {
-    // return if URI is not valid or is no bitcoin: URI
+    // return if URI is not valid or is no krugercoin: URI
     if(!uri.isValid() || uri.scheme() != QString("bitcoin"))
         return false;
 

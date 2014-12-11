@@ -420,8 +420,8 @@ Produk ini termasuk software yang dibangun oleh Proyek OpenSSL untuk Toolkit Ope
         <translation>Krugercoin Core</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Permintaan pembayaran (membangkitkan kode QR dan bitcoin: URIs)</translation>
+        <source>Request payments (generates QR codes and krugercoin: URIs)</source>
+        <translation>Permintaan pembayaran (membangkitkan kode QR dan krugercoin: URIs)</translation>
     </message>
     <message>
         <source>&amp;About Krugercoin Core</source>
@@ -436,7 +436,7 @@ Produk ini termasuk software yang dibangun oleh Proyek OpenSSL untuk Toolkit Ope
         <translation>Tampilkan daftar alamat dan label yang diterima</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI or payment request</source>
+        <source>Open a krugercoin: URI or payment request</source>
         <translation>Buka URI bitcoin: atau permintaan pembayaran</translation>
     </message>
     <message>

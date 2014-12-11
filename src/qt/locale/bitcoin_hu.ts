@@ -427,7 +427,7 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
         <translation>Krugercoin Core</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
+        <source>Request payments (generates QR codes and krugercoin: URIs)</source>
         <translation>Kifizetési kérelem (QR-kódot és "bitcoin:" azonosítót (URI-t) hoz létre)</translation>
     </message>
     <message>
@@ -443,7 +443,7 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
         <translation>A használt fogadó címek és címkék megtekintése</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI or payment request</source>
+        <source>Open a krugercoin: URI or payment request</source>
         <translation>"bitcoin:" URI azonosító vagy fizetési kérelem megnyitása</translation>
     </message>
     <message>

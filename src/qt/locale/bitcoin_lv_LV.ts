@@ -416,15 +416,15 @@ Izplatīta saskaņā ar MIT/X11 programmatūras licenci, skatīt pievienoto datn
         <translation>Krugercoin Core</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Pieprasīt maksājumus (izveido QR kodu un bitcoin: URIs)</translation>
+        <source>Request payments (generates QR codes and krugercoin: URIs)</source>
+        <translation>Pieprasīt maksājumus (izveido QR kodu un krugercoin: URIs)</translation>
     </message>
     <message>
         <source>&amp;About Krugercoin Core</source>
         <translation>Par &amp;Krugercoin Core</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI or payment request</source>
+        <source>Open a krugercoin: URI or payment request</source>
         <translation>Atvērt bitcoin URI vai maksājuma pieprasījumu</translation>
     </message>
     <message>

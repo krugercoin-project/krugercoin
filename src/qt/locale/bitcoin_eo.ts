@@ -420,7 +420,7 @@ Tiu ĉi produkto enhavas erojn kreitajn de la "OpenSSL Project" por uzo en la "O
         <translation>Kerno de Bitmono</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
+        <source>Request payments (generates QR codes and krugercoin: URIs)</source>
         <translation>Peti pagon (kreas QR-kodojn kaj URI-ojn kun prefikso bitcoin:)</translation>
     </message>
     <message>
@@ -436,7 +436,7 @@ Tiu ĉi produkto enhavas erojn kreitajn de la "OpenSSL Project" por uzo en la "O
         <translation>Vidigi la liston de uzitaj ricevaj adresoj kaj etikedoj</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI or payment request</source>
+        <source>Open a krugercoin: URI or payment request</source>
         <translation>Malfermi bitcoin:-URI-on aŭ pagpeton</translation>
     </message>
     <message>
