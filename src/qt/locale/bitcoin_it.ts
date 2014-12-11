@@ -29,7 +29,7 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l'uso del T
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
-        <translation>Gli sviluppatori del Krugercoin Core</translation>
+        <translation>Gli sviluppatori del Krugercoin/Bitcoin Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -2130,7 +2130,7 @@ Più URL vengono separati da una barra verticale |.</translation>
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
-        <translation>Gli sviluppatori del Krugercoin Core</translation>
+        <translation>Gli sviluppatori del Krugercoin/Bitcoin Core</translation>
     </message>
     <message>
         <source>[testnet]</source>

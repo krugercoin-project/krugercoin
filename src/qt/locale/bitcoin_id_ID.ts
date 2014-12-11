@@ -29,7 +29,7 @@ Produk ini termasuk software yang dibangun oleh Proyek OpenSSL untuk Toolkit Ope
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
-        <translation>Pembangun Krugercoin Core</translation>
+        <translation>Pembangun Krugercoin/Bitcoin Core</translation>
     </message>
     </context>
 <context>
@@ -2016,7 +2016,7 @@ Alamat: %4
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
-        <translation>Pembangun Krugercoin Core</translation>
+        <translation>Pembangun Krugercoin/Bitcoin Core</translation>
     </message>
     <message>
         <source>[testnet]</source>

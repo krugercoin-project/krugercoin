@@ -29,7 +29,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
-        <translation>Krugercoin Core-ს ავტორები</translation>
+        <translation>Krugercoin/Bitcoin Core-ს ავტორები</translation>
     </message>
     </context>
 <context>
@@ -2084,7 +2084,7 @@ Address: %4
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
-        <translation>Krugercoin Core-ს ავტორები</translation>
+        <translation>Krugercoin/Bitcoin Core-ს ავტორები</translation>
     </message>
     <message>
         <source>[testnet]</source>

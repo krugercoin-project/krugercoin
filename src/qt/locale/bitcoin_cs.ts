@@ -29,7 +29,7 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
-        <translation>Vývojáři Krugercoin Core</translation>
+        <translation>Vývojáři Krugercoin/Bitcoin Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -2116,7 +2116,7 @@ Adresa: %4
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
-        <translation>Vývojáři Krugercoin Core</translation>
+        <translation>Vývojáři Krugercoin/Bitcoin Core</translation>
     </message>
     <message>
         <source>[testnet]</source>

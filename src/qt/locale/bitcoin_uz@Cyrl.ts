@@ -29,7 +29,7 @@ MIT/X11 дастурий таъминот лицензияси остида та
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
-        <translation>Krugercoin Core дастурчилари</translation>
+        <translation>Krugercoin/Bitcoin Core дастурчилари</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -648,7 +648,7 @@ MIT/X11 дастурий таъминот лицензияси остида та
     <name>SplashScreen</name>
     <message>
         <source>The Bitcoin Core developers</source>
-        <translation>Krugercoin Core дастурчилари</translation>
+        <translation>Krugercoin/Bitcoin Core дастурчилари</translation>
     </message>
     <message>
         <source>[testnet]</source>

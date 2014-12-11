@@ -32,7 +32,7 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
-        <translation>Los desarrolladores del Núcleo de Krugercoin</translation>
+        <translation>Los desarrolladores del Núcleo de Krugercoin/Bitcoin</translation>
     </message>
     </context>
 <context>
@@ -1975,7 +1975,7 @@ Dirección: %4
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
-        <translation>Los desarrolladores del Núcleo de Krugercoin</translation>
+        <translation>Los desarrolladores del Núcleo de Krugercoin/Bitcoin</translation>
     </message>
     <message>
         <source>[testnet]</source>

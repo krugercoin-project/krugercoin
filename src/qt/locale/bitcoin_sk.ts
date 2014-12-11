@@ -29,7 +29,7 @@ Tento výrobok obsahuje sofvér, ktorý vyvynul OpenSSL Project pre použitie v 
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
-        <translation>Vývojári jadra Krugercoin</translation>
+        <translation>Vývojári jadra Krugercoin/Bitcoin</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -2127,7 +2127,7 @@ Adresa: %4</translation>
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
-        <translation>Vývojári jadra Krugercoin</translation>
+        <translation>Vývojári jadra Krugercoin/Bitcoin</translation>
     </message>
     <message>
         <source>[testnet]</source>

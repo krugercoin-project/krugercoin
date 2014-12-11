@@ -30,7 +30,7 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
-        <translation>Krugercoin Core kehittäjät</translation>
+        <translation>Krugercoin/Bitcoin Core kehittäjät</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -2132,7 +2132,7 @@ Osoite: %4</translation>
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
-        <translation>Krugercoin Core kehittäjät</translation>
+        <translation>Krugercoin/Bitcoin Core kehittäjät</translation>
     </message>
     <message>
         <source>[testnet]</source>

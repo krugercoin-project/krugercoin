@@ -29,7 +29,7 @@ Dette produktet inneholder programvare utviklet av OpenSSL Project for bruk i Op
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
-        <translation>Krugercoin Core utviklerne</translation>
+        <translation>Krugercoin/Bitcoin Core utviklerne</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -2132,7 +2132,7 @@ Adresse: %4
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
-        <translation>Krugercoin Core utviklerne</translation>
+        <translation>Krugercoin/Bitcoin Core utviklerne</translation>
     </message>
     <message>
         <source>[testnet]</source>

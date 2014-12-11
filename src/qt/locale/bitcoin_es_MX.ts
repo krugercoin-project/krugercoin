@@ -15,7 +15,7 @@
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
-        <translation>Los desarrolladores de Krugercoin Core</translation>
+        <translation>Los desarrolladores de Krugercoin/Bitcoin Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -878,7 +878,7 @@
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
-        <translation>El nucleo de Krugercoin de desarrolladores</translation>
+        <translation>El nucleo de Krugercoin/Bitcoin de desarrolladores</translation>
     </message>
     </context>
 <context>

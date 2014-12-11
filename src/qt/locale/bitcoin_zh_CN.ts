@@ -29,7 +29,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
-        <translation>Krugercoin Core 的开发者</translation>
+        <translation>Krugercoin/Bitcoin Core 的开发者</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -2133,7 +2133,7 @@ Address: %4
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
-        <translation>Krugercoin Core 的开发者</translation>
+        <translation>Krugercoin/Bitcoin Core 的开发者</translation>
     </message>
     <message>
         <source>[testnet]</source>

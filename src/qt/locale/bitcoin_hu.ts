@@ -28,7 +28,7 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
-        <translation>A Krugercoin Core fejlesztői</translation>
+        <translation>A Krugercoin/Bitcoin Core fejlesztői</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -1685,7 +1685,7 @@ Cím: %4
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
-        <translation>A Krugercoin Core fejlesztői</translation>
+        <translation>A Krugercoin/Bitcoin Core fejlesztői</translation>
     </message>
     <message>
         <source>[testnet]</source>

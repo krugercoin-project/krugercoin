@@ -29,7 +29,7 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
-        <translation>Dezvoltatorii Krugercoin Core</translation>
+        <translation>Dezvoltatorii Krugercoin/Bitcoin Core</translation>
     </message>
     </context>
 <context>
@@ -1972,7 +1972,7 @@ Adresa: %4
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
-        <translation>Dezvoltatorii Krugercoin Core</translation>
+        <translation>Dezvoltatorii Krugercoin/Bitcoin Core</translation>
     </message>
     <message>
         <source>[testnet]</source>

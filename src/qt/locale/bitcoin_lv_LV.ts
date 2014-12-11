@@ -29,7 +29,7 @@ Izplatīta saskaņā ar MIT/X11 programmatūras licenci, skatīt pievienoto datn
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
-        <translation>Krugercoin Core izstrādātāji</translation>
+        <translation>Krugercoin/Bitcoin Core izstrādātāji</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -1888,7 +1888,7 @@ Adrese: %4
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
-        <translation>Krugercoin Core izstrādātāji</translation>
+        <translation>Krugercoin/Bitcoin Core izstrādātāji</translation>
     </message>
     <message>
         <source>[testnet]</source>
