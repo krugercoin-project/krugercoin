@@ -1639,7 +1639,7 @@ Address: %4
     </message>
     <message>
         <location line="-353"/>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
+        <source>Cannot start krugercoin: click-to-pay handler</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

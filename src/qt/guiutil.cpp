@@ -171,13 +171,13 @@ bool parseKrugercoinURI(const QUrl &uri, SendCoinsRecipient *out)
 
 bool parseKrugercoinURI(QString uri, SendCoinsRecipient *out)
 {
-    // Convert bitcoin:// to bitcoin:
+    // Convert krugercoin:// to krugercoin:
     //
-    //    Cannot handle this later, because bitcoin:// will cause Qt to see the part after // as host,
+    //    Cannot handle this later, because krugercoin:// will cause Qt to see the part after // as host,
     //    which will lower-case it (and thus invalidate the address).
-    if(uri.startsWith("bitcoin://", Qt::CaseInsensitive))
+    if(uri.startsWith("krugercoin://", Qt::CaseInsensitive))
     {
-        uri.replace(0, 10, "bitcoin:");
+        uri.replace(0, 10, "krugercoin:");
     }
     QUrl uriInstance(uri);
     return parseKrugercoinURI(uriInstance, out);
@@ -185,7 +185,7 @@ bool parseKrugercoinURI(QString uri, SendCoinsRecipient *out)
 
 QString formatKrugercoinURI(const SendCoinsRecipient &info)
 {
-    QString ret = QString("bitcoin:%1").arg(info.address);
+    QString ret = QString("krugercoin:%1").arg(info.address);
     int paramCount = 0;
 
     if (info.amount)

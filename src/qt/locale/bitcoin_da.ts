@@ -433,7 +433,7 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     </message>
     <message>
         <source>Request payments (generates QR codes and krugercoin: URIs)</source>
-        <translation>Forespørg betalinger (genererer QR-koder og "bitcoin:"-URI'er)</translation>
+        <translation>Forespørg betalinger (genererer QR-koder og "krugercoin:"-URI'er)</translation>
     </message>
     <message>
         <source>&amp;About Krugercoin Core</source>
@@ -449,7 +449,7 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     </message>
     <message>
         <source>Open a krugercoin: URI or payment request</source>
-        <translation>Åbn en "bitcoin:"-URI eller betalingsforespørgsel</translation>
+        <translation>Åbn en "krugercoin:"-URI eller betalingsforespørgsel</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -1286,8 +1286,8 @@ Adresse: %4
         <translation>Fejl i betalingsforespørgsel</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>Kan ikke starte bitcoin: click-to-pay-håndtering</translation>
+        <source>Cannot start krugercoin: click-to-pay handler</source>
+        <translation>Kan ikke starte krugercoin: click-to-pay-håndtering</translation>
     </message>
     <message>
         <source>Net manager warning</source>

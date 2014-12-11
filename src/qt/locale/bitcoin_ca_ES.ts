@@ -929,8 +929,8 @@ Address: %4
         <translation>Error en la sol·licitud de pagament</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>No es pot iniciar bitcoin: manejador clicla-per-pagar</translation>
+        <source>Cannot start krugercoin: click-to-pay handler</source>
+        <translation>No es pot iniciar krugercoin: manejador clicla-per-pagar</translation>
     </message>
     <message>
         <source>Refund from %1</source>

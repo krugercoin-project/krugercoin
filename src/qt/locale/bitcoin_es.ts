@@ -1289,8 +1289,8 @@ Dirección: %4
         <translation>Error en petición de pago</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>No se pudo iniciar bitcoin: manejador de pago-al-clic</translation>
+        <source>Cannot start krugercoin: click-to-pay handler</source>
+        <translation>No se pudo iniciar krugercoin: manejador de pago-al-clic</translation>
     </message>
     <message>
         <source>Net manager warning</source>
@@ -1958,7 +1958,7 @@ Dirección: %4
     </message>
     <message>
         <source>A message that was attached to the krugercoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Krugercoin network.</source>
-        <translation>Un mensaje que se adjuntó a la bitcoin: URL que será almacenada con la transacción para su referencia. Nota: Este mensaje no se envía a través de la red Krugercoin.</translation>
+        <translation>Un mensaje que se adjuntó a la krugercoin: URL que será almacenada con la transacción para su referencia. Nota: Este mensaje no se envía a través de la red Krugercoin.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>

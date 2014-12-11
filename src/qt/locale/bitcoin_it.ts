@@ -1284,8 +1284,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Errore di richiesta di pagamento</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>Impossibile avviare bitcoin: gestore click-to-pay</translation>
+        <source>Cannot start krugercoin: click-to-pay handler</source>
+        <translation>Impossibile avviare krugercoin: gestore click-to-pay</translation>
     </message>
     <message>
         <source>Net manager warning</source>

@@ -40,7 +40,7 @@ namespace GUIUtil
     void setupAddressWidget(QValidatedLineEdit *widget, QWidget *parent);
     void setupAmountWidget(QLineEdit *widget, QWidget *parent);
 
-    // Parse "bitcoin:" URI into recipient object, return true on successful parsing
+    // Parse "krugercoin:" URI into recipient object, return true on successful parsing
     bool parseKrugercoinURI(const QUrl &uri, SendCoinsRecipient *out);
     bool parseKrugercoinURI(QString uri, SendCoinsRecipient *out);
     QString formatKrugercoinURI(const SendCoinsRecipient &info);

@@ -1051,7 +1051,7 @@ Address: %4
         <translation>支払いのリクエストのエラーです</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
+        <source>Cannot start krugercoin: click-to-pay handler</source>
         <translation>Krugercoin を起動できません: click-to-pay handler</translation>
     </message>
     <message>

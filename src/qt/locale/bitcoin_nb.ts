@@ -1286,7 +1286,7 @@ Adresse: %4
         <translation>Betalingsforespørsel feil</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
+        <source>Cannot start krugercoin: click-to-pay handler</source>
         <translation>Kan ikke starte Krugercoin: klikk-og-betal håndterer</translation>
     </message>
     <message>

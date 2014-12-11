@@ -1288,7 +1288,7 @@ Address: %4
         <translation>要求付款時發生錯誤</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
+        <source>Cannot start krugercoin: click-to-pay handler</source>
         <translation>沒辦法啟動 bitcoin 協議的按就付處理器</translation>
     </message>
     <message>

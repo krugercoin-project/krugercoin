@@ -1146,7 +1146,7 @@ Adrese: %4
         <translation>Maksājumu pieprasījuma kļūda</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
+        <source>Cannot start krugercoin: click-to-pay handler</source>
         <translation>Nevar palaist Krugercoin: nospied-lai-maksātu apstrādātāju</translation>
     </message>
     <message>

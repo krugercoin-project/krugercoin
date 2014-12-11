@@ -773,7 +773,7 @@ Inscriptio: %4
         <translation>URI intellegi non posse!  Huius causa possit inscriptionem Krugercoin non validam aut URI parametra maleformata.</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
+        <source>Cannot start krugercoin: click-to-pay handler</source>
         <translation>Krugercoin incipere non potest: cliccare-ad-pensandum handler</translation>
     </message>
     </context>

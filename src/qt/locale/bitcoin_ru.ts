@@ -433,7 +433,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>Request payments (generates QR codes and krugercoin: URIs)</source>
-        <translation>Запросить платежи (создаёт QR-коды и bitcoin: ссылки)</translation>
+        <translation>Запросить платежи (создаёт QR-коды и krugercoin: ссылки)</translation>
     </message>
     <message>
         <source>&amp;About Krugercoin Core</source>
@@ -1286,8 +1286,8 @@ Address: %4
         <translation>Ошибка запроса платежа</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>Не удаётся запустить bitcoin: обработчик click-to-pay</translation>
+        <source>Cannot start krugercoin: click-to-pay handler</source>
+        <translation>Не удаётся запустить krugercoin: обработчик click-to-pay</translation>
     </message>
     <message>
         <source>Net manager warning</source>

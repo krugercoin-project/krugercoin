@@ -1287,8 +1287,8 @@ Adress: %4
         <translation>Fel vid betalningsbegäran</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>Kan inte starta bitcoin: klicka-och-betala handhavare</translation>
+        <source>Cannot start krugercoin: click-to-pay handler</source>
+        <translation>Kan inte starta krugercoin: klicka-och-betala handhavare</translation>
     </message>
     <message>
         <source>Net manager warning</source>

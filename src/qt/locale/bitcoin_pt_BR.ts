@@ -1273,8 +1273,8 @@ Endereço: %4</translation>
         <translation>Erro no pedido de pagamento</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>Não foi possível iniciar bitcoin: manipulador clique-para-pagar</translation>
+        <source>Cannot start krugercoin: click-to-pay handler</source>
+        <translation>Não foi possível iniciar krugercoin: manipulador clique-para-pagar</translation>
     </message>
     <message>
         <source>Net manager warning</source>

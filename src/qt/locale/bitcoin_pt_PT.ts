@@ -429,7 +429,7 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <source>Request payments (generates QR codes and krugercoin: URIs)</source>
-        <translation>Solicitar pagamentos (gera códigos QR e URIs bitcoin:)</translation>
+        <translation>Solicitar pagamentos (gera códigos QR e URIs krugercoin:)</translation>
     </message>
     <message>
         <source>&amp;About Krugercoin Core</source>
@@ -445,7 +445,7 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <source>Open a krugercoin: URI or payment request</source>
-        <translation>Abrir URI bitcoin: ou pedido de pagamento</translation>
+        <translation>Abrir URI krugercoin: ou pedido de pagamento</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -1265,8 +1265,8 @@ Endereço: %4</translation>
         <translation>Erro de pedido de pagamento</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>Impossível iniciar o controlador de bitcoin: click-to-pay</translation>
+        <source>Cannot start krugercoin: click-to-pay handler</source>
+        <translation>Impossível iniciar o controlador de krugercoin: click-to-pay</translation>
     </message>
     <message>
         <source>Net manager warning</source>
@@ -1926,7 +1926,7 @@ Endereço: %4</translation>
     </message>
     <message>
         <source>A message that was attached to the krugercoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Krugercoin network.</source>
-        <translation>Uma mensagem que estava anexada ao URI bitcoin: que será armazenada com a transação para sua referência. Nota: Esta mensagem não será enviada através da rede Krugercoin.</translation>
+        <translation>Uma mensagem que estava anexada ao URI krugercoin: que será armazenada com a transação para sua referência. Nota: Esta mensagem não será enviada através da rede Krugercoin.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>

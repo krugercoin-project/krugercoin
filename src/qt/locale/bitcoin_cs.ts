@@ -1270,8 +1270,8 @@ Adresa: %4
         <translation>Chyba platebního požadavku</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>Nemůžu spustit bitcoin: obsluha click-to-pay</translation>
+        <source>Cannot start krugercoin: click-to-pay handler</source>
+        <translation>Nemůžu spustit krugercoin: obsluha click-to-pay</translation>
     </message>
     <message>
         <source>Net manager warning</source>

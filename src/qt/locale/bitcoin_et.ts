@@ -757,7 +757,7 @@ Aadress: %4⏎</translation>
         <translation>URI ei suudeta parsida. Põhjuseks võib olla kehtetu Krugercoini aadress või vigased URI parameetrid.</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
+        <source>Cannot start krugercoin: click-to-pay handler</source>
         <translation>Krugercoin ei käivitu: vajuta-maksa toiming</translation>
     </message>
     </context>
