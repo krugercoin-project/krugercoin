@@ -7,6 +7,8 @@
 #include "hash.h"
 #include "serialize.h"
 
+#include <math.h>
+
 using namespace std;
 
 int CAddrInfo::GetTriedBucket(const std::vector<unsigned char> &nKey) const
@@ -74,8 +76,7 @@ double CAddrInfo::GetChance(int64_t nNow) const
         fChance *= 0.01;
 
     // deprioritize 50% after each failed attempt
-    for (int n=0; n<nAttempts; n++)
-        fChance /= 1.5;
+    fChance /= pow(1.5, nAttempts);
 
     return fChance;
 }
@@ -419,8 +420,7 @@ CAddress CAddrMan::Select_(int nUnkBias)
             if (vNew.size() == 0) continue;
             int nPos = GetRandInt(vNew.size());
             std::set<int>::iterator it = vNew.begin();
-            while (nPos--)
-                it++;
+            std::advance(it, nPos);
             assert(mapInfo.count(*it) == 1);
             CAddrInfo &info = mapInfo[*it];
             if (GetRandInt(1<<30) < fChanceFactor*info.GetChance()*(1<<30))

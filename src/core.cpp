@@ -17,19 +17,9 @@ void COutPoint::print() const
     LogPrintf("%s\n", ToString());
 }
 
-CTxIn::CTxIn(COutPoint prevoutIn, CScript scriptSigIn, unsigned int nSequenceIn)
-{
-    prevout = prevoutIn;
-    scriptSig = scriptSigIn;
-    nSequence = nSequenceIn;
-}
+CTxIn::CTxIn(COutPoint prevoutIn, CScript scriptSigIn, unsigned int nSequenceIn) : prevout(prevoutIn), scriptSig(scriptSigIn), nSequence(nSequenceIn) { }
 
-CTxIn::CTxIn(uint256 hashPrevTx, unsigned int nOut, CScript scriptSigIn, unsigned int nSequenceIn)
-{
-    prevout = COutPoint(hashPrevTx, nOut);
-    scriptSig = scriptSigIn;
-    nSequence = nSequenceIn;
-}
+CTxIn::CTxIn(uint256 hashPrevTx, unsigned int nOut, CScript scriptSigIn, unsigned int nSequenceIn) : prevout(COutPoint(hashPrevTx, nOut)), scriptSig(scriptSigIn), nSequence(nSequenceIn) { }
 
 std::string CTxIn::ToString() const
 {
@@ -51,11 +41,7 @@ void CTxIn::print() const
     LogPrintf("%s\n", ToString());
 }
 
-CTxOut::CTxOut(int64_t nValueIn, CScript scriptPubKeyIn)
-{
-    nValue = nValueIn;
-    scriptPubKey = scriptPubKeyIn;
-}
+CTxOut::CTxOut(int64_t nValueIn, CScript scriptPubKeyIn) : nValue(nValueIn), scriptPubKey(scriptPubKeyIn) {}
 
 uint256 CTxOut::GetHash() const
 {
